@@ -1,8 +1,10 @@
 <section class="container centered">
   <div class="about">
+    <a href="/posts">
     {{ with .Site.Params.avatarurl }}
       <div class="avatar"><img src="{{ . | relURL }}" alt="avatar"></div>
     {{ end }}
+    </a>
     <h1>{{ .Site.Params.author }}</h1>
     <h2>{{ .Site.Params.info }}</h2>
     {{ with .Site.Params.social }}
