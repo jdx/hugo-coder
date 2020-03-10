@@ -119,6 +119,10 @@
         font-size: 2.0rem;
       }
     }
+    p {
+      font-family: $heading-font-family;
+      margin: 0 1rem;
+    }
     ul {
       list-style: none;
       margin: 3.0rem 0 1.0rem 0;
