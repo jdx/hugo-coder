@@ -15,7 +15,8 @@
     background-color: $alt-bg-color;
     border-radius: 0.2rem;
     opacity: 0.5;
-    transition: all 0.25s ease-in;
+    cursor: pointer;
+    // transition: all 0.25s ease-in;
 
     &:hover,
     &:focus {
